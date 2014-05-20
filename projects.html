@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Andrew Zhong</title>
+	  <meta name="author" content="Andrew Xuanyu Zhong">
+	  <meta name="description" content="A demostration of projects Andrew have contributed">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="icons/icon.png">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Libre+Baskerville:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar"
+                  data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">Andrew Zhong</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+			        <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="#">Projects</a></li>
+              <li><a href="resume/resume_andrew_zhong.pdf">Resume</a></li>
+              <li><a href="http://www.linkedin.com/in/andrewxz">LinkedIn</a></li>
+              <li><a href="https://github.com/axzhong3">GitHub</a></li>
+			      </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+          <img class="img-polaroid" src="pics/androidAR.jpg" alt="android augmented reality">
+        </div>
+        <div class="span6 copy">
+		  <p><b>Augmented Object Detector - Android App
+			  <br>CS Berkeley</b> | Fall 2013 - Present
+		  </p>
+          <p>Detected objects from Android camera video stream with Haar training</p>
+		  <p>Rendered the detected objects in 3D on top of camera view with OpenGL ES 2</p>
+		  <p>Created a 3D virtual space based on geographical location and camera orientation
+		    <a href="https://github.com/axzhong3/ARVisionMap">[Github]</a>
+		    <a href="http://www.youtube.com/watch?v=s8A1bdAI4Mk">[YouTube]</a>
+		  </p>
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+          <img class="img-polaroid" src="pics/indoor.png" alt="indoor navigation">
+        </div>
+        <div class="span6 copy">
+		  <p><b>Indoor Navigation with Augmented Reality 
+			  <br>Qualcomm Research Silicon Valley</b> | Fall 2013 - Present
+		  </p>
+		  <p>Create an Android AR application with OpenGL ES 2 and Qualcomm Indoor Navigation APIs <a href="http://www.augmentedrealitymap.appspot.com">[Location API simulator]</a></p> 
+		  <p>Overlaid 3D graphical map objects on the camera view based on location and orientation</p>
+		  </p>
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+		  <div class="flex-video widescreen">
+			<iframe width="480" height="300" src="http://www.youtube.com/embed/gPw7s1QeQi8" allowfullscreen>
+			</iframe>
+		  </div>
+        </div>
+        <div class="span6 copy">
+		  <p><b>Computer Graphics "CS284"
+			  <br>CS Berkeley </b> | Fall 2013
+		  </p>
+          <p> Coded in C++ from scratch: a ray tracer that implements Phong shading, supports refraction and reads obj files</p>
+		  <p> Developed in OpenGL: uniform subdivision and adaptive tessellation from Bezier surfaces, obj & mtl inputs, vertex shading based on the Gaussian Curvature <u>(on the left)</u>
+		  <a href="https://github.com/axzhong3/graphics">[Github]</a>
+		  </p>
+        </div>
+      </div>
+
+
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+		  <div class="flex-video widescreen">
+			<iframe width="480" height="300" src="http://www.youtube.com/embed/Q9sXZPS540U" allowfullscreen>
+			</iframe>
+		  </div>
+        </div>
+        <div class="span6 copy">
+		  <p><b>Computer Vision "CS280" 
+			  <br>CS Berkeley</b> | Fall 2013
+		  </p>
+          <p>Generated a planar 3D scene from a single photograph using homography matrices <u>(on the left)</u>
+			<a href="https://github.com/axzhong3/3DViewer">[Github]</a>
+		  </p>
+		  <p>Reconstruct 3D scenes using eight-point algorithm
+		  <a href="https://github.com/axzhong3/3DReconstruction">[Github]</a>
+		  </p>
+		  
+		  <p>Performed various image processing tasks: edge detection, texture recognition, block matching
+		  <a href="https://github.com/axzhong3/imageProcessing">[Github]</a>
+		  </p>
+		  <p>Recognized hand-written digits from MNIST dataset with spatial pyramids and orientation histograms with <3% error</p>
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+          <img class="img-polaroid" src="pics/tetrahedral_interpolation.png">
+        </div>
+        <div class="span6 copy">
+		  <p><b>System Design Internships
+			  <br>Qualcomm</b> | Summer 2012 and Summer 2013
+		  </p>
+          <p>Implemented the color processing algorithm based on a novel 3D look-up table gamut mapping for Mirasol display <u>(on the left)</u></p>
+		  <p>Optimized memory placement algorithm and reduced look-up table size by a factor of 4</p>
+		  <p>Initiated and developed text processing and pattern matching tools for massive netlist and log files
+		  <p>Performed MIPI DSI (Display Serial Interface) modeling and video stream simulations</p>
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+          <img class="img-polaroid" src="pics/research.jpg">
+        </div>
+        <div class="span6 copy">
+		  <p><b>Diagnosing Root Causes of System Level Performance Violations with Data Mining
+			  <br>Cordinated Science Laboratory at UIUC</b> | Fall 2012 - Spring 2013
+		  </p>		 
+          <p>We apply three categories of domain knowledge from the violation and models to filter the irrelevant transaction traces and increase the effectiveness of the mining results. Our case study shows that our domain knowledge can reduce the number of transaction traces up to 92.8%.</p>
+		  <p>Accepted in <b>"ACM/IEEE International Conference on Computer-Aided Design (ICCAD2013)"</b></p>		  
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+		  <div class="flex-video widescreen">
+			<iframe width="480" height="300" src="http://www.youtube.com/embed/eZpnf4Wn0TI" allowfullscreen>
+			</iframe>
+		  </div>
+        </div>
+        <div class="span6 copy">
+		  <p><b>Brain-controlled Programmable Embedded System - Senior Design "ECE 445"
+			  <br>ECE Illinois</b> | Spring 2013
+		  </p>
+          <p>Designed an EEG-signal-controlled tablet prototype with ~2.5 s response time and 95% reliability</p>
+		  <p>Modules included a microcontroller, LCD interactive display, EEG signal stimulators, EEG detection and classification, Bluetooth communication and Arduino-based embedded software</p>
+		  <p>Earned <b>"Research Award in Senior Design Hall of Fame"</b></p>
+
+        </div>
+      </div>
+
+
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+          <div class="flex-video widescreen">
+			<iframe width="480" height="300" src="http://www.youtube.com/embed/GP7YJRfwtN0" allowfullscreen>
+			</iframe>
+		  </div>
+        </div>
+        <div class="span6 copy">
+		  <p><b>Operating Systems "ECE 391"
+			  <br>ECE Illinois</b> | Spring 2013 
+		  </p>
+          <p>Developed "DinoOS": a Linux-based Operating System in C and x86 in a team of four</p>
+		  <p>Features included paging, interrupts, system calls, program loader, page allocator, multiple terminals, scheduling, signals, sound and mouse support, shell extensions and GUI</p>
+		  <p>Achieved 4th in 30 teams in <b>"the Microsoft Operating System Design Competition"</b></p>
+
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+          <img class="img-polaroid" src="pics/ece411.png">
+        </div>
+        <div class="span6 copy">
+		  <p><b>Computer Organization and Design "ECE 411"
+			  <br>ECE Illinois</b> | Fall 2012
+		  </p>
+          <p>Designed and verified datapath, control and cache of a 5-stage pipelined processor based on LC3b</p>
+		  <p>Features included full data forwarding, 8-way associative L2 cache with true LRU, dynamic branch prediction with branch target buffer and various advanced features</p>
+		  <p>Achieved 2nd in 22 teams in <b>"the Processor Design Competition sponsored by AMD"</b></p>
+
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+          <img class="img-polaroid" src="pics/maze.gif">
+        </div>
+        <div class="span6 copy">
+		  <p><b>Multi-layer Maze Router Software - Data Structures "CS 225" 
+			  <br>CS Illinois</b> | Spring 2012
+		  </p>
+          <p>Coded in C++, searching for the shortest path for arbitrary number of pins on multiple metal layers</p>
+		  <p>Globally optimized the algorithm by generating a minimum spanning tree and disjoint sets
+		  <a href="https://github.com/axzhong3/mazeRouter">[Github]</a></p>
+
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <div class="span6 asset">
+          <img class="img-polaroid" src= "pics/mooc.jpg">
+        </div>
+        <div class="span6 copy">
+          <p>Active learner on MOOCs:</p>
+		  <p><b>Coursera:</b>
+			<br>Algorithms I <a href="https://github.com/axzhong3/algorithm1">[GitHub]</a>
+			<br>Algorithms: Design and Analysis I <a href="https://github.com/axzhong3/algorithmStanford">[GitHub]</a>
+			<br>Introduction to Data Science with Distinction
+		  </p> 
+		  <p><b>Udacity:</b>
+			<br>Web Development <a href="https://github.com/axzhong3/webDev">[GitHub]</a>
+		  </p> 
+		  <p><b>edX:</b>
+			<br>Software as a Service <a href="https://github.com/axzhong3/cs169-SaaS">[GitHub]</a>
+		  </p> 
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  </body>
+</html>
