@@ -42,6 +42,32 @@
 
     <div class="container">
       <div class="row-fluid section1">
+        <video class="span6 asset img img-responsive" loop autoplay>
+          <source src="vids/behavior_cloning.mp4" type="video/mp4">
+        </video>
+        <div class="span6 copy">
+          <p><b>Driving behavior cloning on simulator tracks with DNN
+              <br>Udacity Self Driving Car Challenge </b> | 02/2017
+          </p>
+          <p>Collected multiple laps of my own driving behavior and generalized through driving clock-wise/anti-clockwise on multiple tracks, center of lane/along side of lane, steering back from road </p>
+          <p>Trained in Keras the Nvidia end-to-end model architecture <a href="https://arxiv.org/pdf/1604.07316v1.pdf">[paper]</a>, which successfully drives the car around track without leaving the road</p>
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <video class="span6 asset img img-responsive" loop autoplay>
+          <source src="vids/vehicle_and_lane_detection.mp4" type="video/mp4">
+        </video>
+        <div class="span6 copy">
+          <p><b>Advanced Lance Detection and Vehicle Tracking
+              <br>Udacity Self Driving Car Challenge </b> | 12/2016
+          </p>
+          <p>Designed and fine-tuned a robust lane detection algorithm based on traditional CV features (normalized HLS color space gradients on birdeye perspective transformed undistorted images with temporal filtering) <a href="https://github.com/roadfromatoz/CarND-Advanced-Lane-Lines" target="_blank">[GitHub]</a></p>
+          <p>Trained a Linear SVM on YCrCb HOG features with <a href="http://www.gti.ssr.upm.es/data/Vehicle_database.html" target="_blank">[GTI]</a> and <a href="http://www.cvlibs.net/datasets/kitti/" target="_blank">[KITTI]</a> vehicle datasets and improved robustness with temporal filtering <a href="https://github.com/roadfromatoz/CarND-Vehicle-Detection" target="_blank">[GitHub]</a></p>
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
         <div class="span6 asset">
           <img class="img-polaroid" src="pics/visualize.jpg" alt="visualize stock data">
         </div>
